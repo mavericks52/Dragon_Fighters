@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2c2d0bd6-7235-47f2-b503-cad87ed71c83",
+            "Value": {
+                "id": "b6038f21-4f1f-4c79-a43a-afec5766d00b",
+                "resourcePath": "sprites\\spr_ligtning_bolt\\spr_ligtning_bolt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2da1b773-0b70-4aa0-8343-32b3698f7fe7",
             "Value": {
                 "id": "c69f6690-d0d0-4be5-8482-26c7efa95dde",
