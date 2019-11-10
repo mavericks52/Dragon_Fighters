@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 64D5D4D4
-/// @DnDArgument : "code" "key_left = -keyboard_check(ord("A"));$(13_10)key_right =  keyboard_check(ord("D"));$(13_10)key_jump = keyboard_check_pressed(vk_space);$(13_10)$(13_10)$(13_10)if(alarm[1] > 0) {$(13_10)	alarm[1]--;$(13_10)	}$(13_10)if(alarm[1] <= 0) speedMultiplier = 1;$(13_10)$(13_10)$(13_10)if(alarm[0] > 0) {$(13_10)	speedMultiplier = 1.5;$(13_10)	alarm[0]--;$(13_10)	}$(13_10)if(alarm[0] <= 0) speedMultiplier = 1;$(13_10)$(13_10)$(13_10)hsp = speedMultiplier * walkSpeed * (key_left + key_right);$(13_10)if ((walkSpeed * (key_left + key_right) != 0) && (place_meeting(x, y + 1, obj_floor))) running = 1;$(13_10)else running = 2;$(13_10)$(13_10)$(13_10)if (walkSpeed * (key_left + key_right) < 0) image_xscale=-1;$(13_10)$(13_10)if (walkSpeed * (key_left + key_right) > 0) image_xscale=+1;	$(13_10)$(13_10)$(13_10)if (keyboard_check_pressed(ord("Z"))==1){$(13_10)	alarm[2] = 90;$(13_10)	instance_create_layer(x,y,"particles",obj_batarang);$(13_10)}$(13_10)//process gravity$(13_10)if (vsp < MAX_FALL_SPEED) vsp += grav;$(13_10)if(place_meeting(x,y+1,obj_floor)){$(13_10)	jumps_max = 2;$(13_10)	jumps = 1;$(13_10)	$(13_10)}	$(13_10)if(!place_meeting(x,y+1,obj_floor) && (jumps == 1)){$(13_10)	jumps = 2;$(13_10)	$(13_10)}	$(13_10)if ((key_jump) && (jumps <= jumps_max)){$(13_10)	vsp = -jumpSpeed;$(13_10)	jumps += 1;$(13_10)}$(13_10)$(13_10)/*if(!place_meeting(x, y + 1, obj_floor) || ){$(13_10)	vsp += grav;$(13_10)	jumps -= 1;$(13_10)		vsp = -speedMultiplier * jumpSpeed;$(13_10)}else{$(13_10)	if(key_jump){$(13_10)		vsp = -speedMultiplier * jumpSpeed;$(13_10)	}else{$(13_10)		vsp = 0;	$(13_10)	}$(13_10)}$(13_10)*/$(13_10)$(13_10)	$(13_10)if (alarm[2] > 0){$(13_10)		animation_image_1 = scr_exhex_to_number(string_char_at(animation_string_1,animation_index_1));$(13_10)		animation_index_1++;$(13_10)		if (animation_index_1 > animation_len_1) animation_index_1=1;$(13_10)			image_index = animation_image_1;$(13_10)		alarm[2]-=1;$(13_10)}$(13_10)else{$(13_10)$(13_10)if(running == 1){$(13_10)	animation_image = scr_exhex_to_number(string_char_at(animation_string,animation_index));$(13_10)	animation_index++;$(13_10)	if (animation_index > animation_len) animation_index=1;$(13_10)		image_index = animation_image;$(13_10)}$(13_10)vspp=vsp;$(13_10)if(running == 2 && (vsp >= 0)){$(13_10)	image_index = 0;$(13_10)}$(13_10)else if(running == 2 && (vsp <= 0 )){$(13_10)	image_index = 4 ;$(13_10)}$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)//collisions$(13_10)if((place_meeting(x + hsp, y, obj_floor)) || (place_meeting(x + hsp, y, obj_boundries_N))){$(13_10)	dir = sign(hsp);$(13_10)		while(!place_meeting(x + sign(hsp), y, obj_floor) && !place_meeting(x + sign(hsp) , y, obj_boundries_N) ){$(13_10)			x += sign(hsp);	$(13_10)		}$(13_10)		hsp = 0;$(13_10)}$(13_10)$(13_10)x += hsp;$(13_10)$(13_10)if((place_meeting(x, y + vsp, obj_floor)) || (place_meeting(x, y + vsp, obj_boundries_N) )){$(13_10)		while(!place_meeting(x , y + sign(vsp), obj_floor) && !place_meeting(x , y + sign(vsp), obj_boundries_N) ){$(13_10)			y += sign(vsp);	$(13_10)		}$(13_10)		vsp = 0;$(13_10)}$(13_10)$(13_10)y += vsp;$(13_10)"
+/// @DnDArgument : "code" "key_left = -keyboard_check(ord("A"));$(13_10)key_right =  keyboard_check(ord("D"));$(13_10)key_jump = keyboard_check_pressed(vk_space);$(13_10)$(13_10)$(13_10)if(alarm[1] > 0) {$(13_10)	alarm[1]--;$(13_10)	}$(13_10)if(alarm[1] <= 0) speedMultiplier = 1;$(13_10)$(13_10)$(13_10)if(alarm[0] > 0) {$(13_10)	speedMultiplier = 1.5;$(13_10)	alarm[0]--;$(13_10)	}$(13_10)if(alarm[0] <= 0) speedMultiplier = 1;$(13_10)$(13_10)$(13_10)hsp = speedMultiplier * walkSpeed * (key_left + key_right);$(13_10)if ((walkSpeed * (key_left + key_right) != 0) && (place_meeting(x, y + 1, obj_floor))) running = 1;$(13_10)else running = 2;$(13_10)$(13_10)$(13_10)if (walkSpeed * (key_left + key_right) < 0) image_xscale=-1;$(13_10)$(13_10)if (walkSpeed * (key_left + key_right) > 0) image_xscale=+1;	$(13_10)$(13_10)$(13_10)if (keyboard_check_pressed(ord("Z"))==1 && alarm[2]<=1){$(13_10)	alarm[2] = (fire_rate/0.1);$(13_10)	instance_create_layer(x,y,"particles",obj_batarang);$(13_10)}$(13_10)//process gravity$(13_10)if (vsp < MAX_FALL_SPEED) vsp += grav;$(13_10)if(place_meeting(x,y+1,obj_floor)){$(13_10)	jumps_max = 2;$(13_10)	jumps = 1;$(13_10)	$(13_10)}	$(13_10)if(!place_meeting(x,y+1,obj_floor) && (jumps == 1)){$(13_10)	jumps = 2;$(13_10)	$(13_10)}	$(13_10)if ((key_jump) && (jumps <= jumps_max)){$(13_10)	vsp = -jumpSpeed;$(13_10)	jumps += 1;$(13_10)}$(13_10)$(13_10)	$(13_10)if (alarm[2] > 0){$(13_10)		animation_image_1 = scr_exhex_to_number(string_char_at(animation_string_1,animation_index_1));$(13_10)		animation_index_1++;$(13_10)		if (animation_index_1 > animation_len_1) animation_index_1=1;$(13_10)			image_index = animation_image_1;$(13_10)		alarm[2]-=1;$(13_10)}$(13_10)else{$(13_10)$(13_10)if(running == 1){$(13_10)	animation_image = scr_exhex_to_number(string_char_at(animation_string,animation_index));$(13_10)	animation_index++;$(13_10)	if (animation_index > animation_len) animation_index=1;$(13_10)		image_index = animation_image;$(13_10)}$(13_10)vspp=vsp;$(13_10)if(running == 2 && (vsp >= 0)){$(13_10)	image_index = 0;$(13_10)}$(13_10)else if(running == 2 && (vsp <= 0 )){$(13_10)	image_index = 4 ;$(13_10)}$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)if (alarm[2]>1){hsp = 0 vsp = 0}$(13_10)//collisions$(13_10)if((place_meeting(x + hsp, y, obj_floor)) || (place_meeting(x + hsp, y, obj_boundries_N))){$(13_10)		while(!place_meeting(x + sign(hsp), y, obj_floor) && !place_meeting(x + sign(hsp) , y, obj_boundries_N) ){$(13_10)			x += sign(hsp);	$(13_10)		}$(13_10)		hsp = 0;$(13_10)}$(13_10)$(13_10)x += hsp;$(13_10)$(13_10)if((place_meeting(x, y + vsp, obj_floor)) || (place_meeting(x, y + vsp, obj_boundries_N) )){$(13_10)		while(!place_meeting(x , y + sign(vsp), obj_floor) && !place_meeting(x , y + sign(vsp), obj_boundries_N) ){$(13_10)			y += sign(vsp);	$(13_10)		}$(13_10)		vsp = 0;$(13_10)}$(13_10)$(13_10)y += vsp;$(13_10) "
 key_left = -keyboard_check(ord("A"));
 key_right =  keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
@@ -30,8 +30,8 @@ if (walkSpeed * (key_left + key_right) < 0) image_xscale=-1;
 if (walkSpeed * (key_left + key_right) > 0) image_xscale=+1;	
 
 
-if (keyboard_check_pressed(ord("Z"))==1){
-	alarm[2] = 90;
+if (keyboard_check_pressed(ord("Z"))==1 && alarm[2]<=1){
+	alarm[2] = (fire_rate/0.1);
 	instance_create_layer(x,y,"particles",obj_batarang);
 }
 //process gravity
@@ -49,19 +49,6 @@ if ((key_jump) && (jumps <= jumps_max)){
 	vsp = -jumpSpeed;
 	jumps += 1;
 }
-
-/*if(!place_meeting(x, y + 1, obj_floor) || ){
-	vsp += grav;
-	jumps -= 1;
-		vsp = -speedMultiplier * jumpSpeed;
-}else{
-	if(key_jump){
-		vsp = -speedMultiplier * jumpSpeed;
-	}else{
-		vsp = 0;	
-	}
-}
-*/
 
 	
 if (alarm[2] > 0){
@@ -90,10 +77,9 @@ else if(running == 2 && (vsp <= 0 )){
 
 
 
-
+if (alarm[2]>1){hsp = 0 vsp = 0}
 //collisions
 if((place_meeting(x + hsp, y, obj_floor)) || (place_meeting(x + hsp, y, obj_boundries_N))){
-	dir = sign(hsp);
 		while(!place_meeting(x + sign(hsp), y, obj_floor) && !place_meeting(x + sign(hsp) , y, obj_boundries_N) ){
 			x += sign(hsp);	
 		}
@@ -110,7 +96,6 @@ if((place_meeting(x, y + vsp, obj_floor)) || (place_meeting(x, y + vsp, obj_boun
 }
 
 y += vsp;
-/**/
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
