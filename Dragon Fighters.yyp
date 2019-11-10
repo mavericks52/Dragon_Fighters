@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "d91e8f57-db93-48a9-a0e9-8eaef0b73fd2",
+            "Value": {
+                "id": "1f29f772-0c27-4037-82d0-982db0b5ed25",
+                "resourcePath": "sounds\\sod_background_battlefield\\sod_background_battlefield.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dce0a550-dcfc-4be1-90ed-29d8172a7885",
             "Value": {
                 "id": "443e4f1d-01e7-432c-af11-b9299149c6cf",
