@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "080a3d3b-ee43-4181-9d7b-0b3c8903feef",
+            "Value": {
+                "id": "139a5d77-2b40-4c22-8bc3-8a546a211feb",
+                "resourcePath": "sprites\\spr_boundries_H\\spr_boundries_H.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bd64723-d357-4899-9516-598b636d0c83",
             "Value": {
                 "id": "2e435535-62f3-447e-bc62-44c4146eb784",
@@ -52,6 +60,14 @@
                 "id": "bc8738f4-75d9-4693-a89d-06ab0009c694",
                 "resourcePath": "views\\0d203805-ca58-4f84-ac46-73142c302940.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0dadca54-174a-4763-b9b4-aa9d007c2676",
+            "Value": {
+                "id": "d229a6e7-f148-40b2-b548-9bb9fd1a6f15",
+                "resourcePath": "sprites\\spr_boundries_N\\spr_boundries_N.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -139,6 +155,14 @@
             "Value": {
                 "id": "dcb1cd33-1909-4bba-8287-1f39431bb0e6",
                 "resourcePath": "objects\\obj_lightningBolt\\obj_lightningBolt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42f74ee2-8ef5-46d7-ab62-d25e184d945d",
+            "Value": {
+                "id": "24cedc86-9a7b-4a8b-9630-be64d8986014",
+                "resourcePath": "objects\\obj_boundries_N\\obj_boundries_N.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -340,6 +364,14 @@
                 "id": "c83cf98e-c11b-48b9-8a85-5f3070504392",
                 "resourcePath": "views\\b009158c-3eb5-42c0-9d73-047fb03876b9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3547a1b-2344-4f71-9833-9af17eae7466",
+            "Value": {
+                "id": "d6689df6-c4d8-4875-ace6-bbb6048adab9",
+                "resourcePath": "objects\\obj_boundries_H\\obj_boundries_H.yy",
+                "resourceType": "GMObject"
             }
         },
         {
