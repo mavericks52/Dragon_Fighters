@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "55e0070f-9114-4ba0-98da-98580ddf0bf1",
+            "Value": {
+                "id": "c5cf9b27-49ff-4f17-a13b-cdce0890f789",
+                "resourcePath": "sprites\\spr_batarang\\spr_batarang.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5844f546-526e-4362-85e5-648fc14687cb",
             "Value": {
                 "id": "38e58a3b-4536-4e8d-9eae-d88a1a9c4f0f",
