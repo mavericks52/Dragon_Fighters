@@ -9,7 +9,7 @@
         "9a67ea38-e808-45e3-bc0b-2ac389af68a2"
     ],
     "filterType": "GMSprite",
-    "folderName": "group0",
+    "folderName": "projectiles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
