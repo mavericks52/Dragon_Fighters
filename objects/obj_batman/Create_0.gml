@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2D87ECB4
-/// @DnDArgument : "code" "walkSpeed = 24;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)batman_hp = 60;$(13_10)batman_max_hp = 100;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4$(13_10)alarm[3]=-1;$(13_10)stop = 0;$(13_10)death_animation = 1;$(13_10)hspd_force = 0;$(13_10)vspd_force = 0;$(13_10)knockback_force_applied = 0;$(13_10)knockback_dir = 0;$(13_10)dir = 0;$(13_10)vspk = 0;$(13_10)hspk = 0;$(13_10)knockback_force_applied_x=0;"
-walkSpeed = 24;
+/// @DnDArgument : "code" "walkSpeed = 27;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)batman_hp = 60;$(13_10)batman_max_hp = 100;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4$(13_10)alarm[3]=-1;$(13_10)stop = 0;$(13_10)death_animation = 1;$(13_10)hspd_force = 0;$(13_10)vspd_force = 0;$(13_10)knockback_force_applied = 0;$(13_10)knockback_dir = 0;"
+walkSpeed = 27;
 jumpSpeed = 60;
 hsp = 0;
 vsp = 0;
@@ -31,10 +31,6 @@ hspd_force = 0;
 vspd_force = 0;
 knockback_force_applied = 0;
 knockback_dir = 0;
-dir = 0;
-vspk = 0;
-hspk = 0;
-knockback_force_applied_x=0;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1

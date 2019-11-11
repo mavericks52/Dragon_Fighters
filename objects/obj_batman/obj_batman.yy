@@ -5,16 +5,6 @@
     "name": "obj_batman",
     "eventList": [
         {
-            "id": "333e2f8c-7ada-4ff1-bdd1-70cd258ef6ce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "2da1b773-0b70-4aa0-8343-32b3698f7fe7"
-        },
-        {
             "id": "3529ccab-24de-4387-b5e6-9b74c6b535d0",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -102,6 +92,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 3,
             "eventtype": 2,
+            "m_owner": "2da1b773-0b70-4aa0-8343-32b3698f7fe7"
+        },
+        {
+            "id": "f7312ba5-ec0b-498e-b3c2-80f0435f5725",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "2da1b773-0b70-4aa0-8343-32b3698f7fe7"
         }
     ],
