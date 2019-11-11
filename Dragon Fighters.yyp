@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "2c0b1791-2d35-4b23-88c5-7b1b4ae510d6",
-            "Value": {
-                "id": "2e8ac5c0-c1d6-4de2-93f2-c26b7a48d6d0",
-                "resourcePath": "objects\\obj_batman_shooting\\obj_batman_shooting.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2c2d0bd6-7235-47f2-b503-cad87ed71c83",
             "Value": {
                 "id": "b6038f21-4f1f-4c79-a43a-afec5766d00b",
@@ -263,6 +255,14 @@
             }
         },
         {
+            "Key": "7716bb79-0b80-4714-b347-5968d4c62a5b",
+            "Value": {
+                "id": "88c6997c-1e8b-496a-b20a-29aea320bd1f",
+                "resourcePath": "sprites\\spr_lives\\spr_lives.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7eef809c-7e07-4707-b939-e5e25b6aabcc",
             "Value": {
                 "id": "fb11eb6c-2459-47a2-9f2a-d170b93cfac3",
@@ -290,7 +290,7 @@
             "Key": "940e7e55-8011-46c9-b657-e9cb89e9cf53",
             "Value": {
                 "id": "29b3a58d-b267-4f4b-9ba2-e9ffea13e4a1",
-                "resourcePath": "objects\\obj_player_1\\obj_player_1.yy",
+                "resourcePath": "objects\\obj_player_batman\\obj_player_batman.yy",
                 "resourceType": "GMObject"
             }
         },

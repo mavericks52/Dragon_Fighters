@@ -2,7 +2,7 @@
     "id": "940e7e55-8011-46c9-b657-e9cb89e9cf53",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player_1",
+    "name": "obj_player_batman",
     "eventList": [
         {
             "id": "d2ed974d-a1f6-40f6-91c1-520adebcc1bf",
