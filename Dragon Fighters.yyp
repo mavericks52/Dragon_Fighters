@@ -210,7 +210,7 @@
             "Key": "5ee9d86e-1186-4ae5-b45b-b27fdc88ad1a",
             "Value": {
                 "id": "de4936ba-e8b1-4973-8260-331020aea8df",
-                "resourcePath": "objects\\anouncer\\anouncer.yy",
+                "resourcePath": "objects\\obj_room_mech\\obj_room_mech.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "8a856e95-7b2f-44d8-ac20-6480a3f20db4",
             "Value": {
                 "id": "d29a877d-bd9f-41d8-be66-367f8fe50f66",
-                "resourcePath": "objects\\obj_player_2\\obj_player_2.yy",
+                "resourcePath": "objects\\obj_player_flash\\obj_player_flash.yy",
                 "resourceType": "GMObject"
             }
         },
