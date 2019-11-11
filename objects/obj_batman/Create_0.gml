@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2D87ECB4
-/// @DnDArgument : "code" "walkSpeed = 24;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)batman_hp = 60;$(13_10)batman_max_hp = 100;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4;"
+/// @DnDArgument : "code" "walkSpeed = 24;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)batman_hp = 60;$(13_10)batman_max_hp = 100;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4$(13_10)alarm[3]=-1;$(13_10)stop = 0;$(13_10)death_animation = 1;"
 walkSpeed = 24;
 jumpSpeed = 60;
 hsp = 0;
@@ -23,7 +23,10 @@ batman_hp = 60;
 batman_max_hp = 100;
 jumps = 0;
 jumps_max = 2;
-fire_rate = 4;
+fire_rate = 4
+alarm[3]=-1;
+stop = 0;
+death_animation = 1;
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1
@@ -124,3 +127,58 @@ part_type_direction(global.Particle2, 0, 100, 100, 0);
 /// @DnDArgument : "minspeed" "20"
 /// @DnDArgument : "maxspeed" "20"
 part_type_speed(global.Particle2, 20, 20, 0, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Create
+/// @DnDVersion : 1.1
+/// @DnDHash : 4E58F442
+/// @DnDArgument : "var" "global.Particle3"
+global.Particle3 = part_type_create();
+// no blending
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Shape
+/// @DnDVersion : 1.1
+/// @DnDHash : 265D2CE0
+/// @DnDArgument : "type" "global.Particle3"
+/// @DnDArgument : "shape" "pt_shape_explosion"
+part_type_shape(global.Particle3, pt_shape_explosion);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Color
+/// @DnDVersion : 1
+/// @DnDHash : 5B5CC10C
+/// @DnDArgument : "type" "global.Particle3"
+/// @DnDArgument : "startcol" "$FF00FFE9"
+/// @DnDArgument : "midcol" "$FF14C8FF"
+/// @DnDArgument : "endcol" "$FF026FFF"
+part_type_colour3(global.Particle3, $FF00FFE9 & $FFFFFF, $FF14C8FF & $FFFFFF, $FF026FFF & $FFFFFF);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Size
+/// @DnDVersion : 1
+/// @DnDHash : 13AE07AA
+/// @DnDArgument : "type" "global.Particle3"
+/// @DnDArgument : "minsize" ".4"
+/// @DnDArgument : "maxsize" ".8"
+/// @DnDArgument : "sizeincr" ".2"
+part_type_size(global.Particle3, .4, .8, .2, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Life
+/// @DnDVersion : 1
+/// @DnDHash : 699A8C74
+/// @DnDArgument : "typ" "global.Particle3"
+/// @DnDArgument : "maxlife" "6"
+part_type_life(global.Particle3, 0, 6);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Direction
+/// @DnDVersion : 1
+/// @DnDHash : 54A199DC
+/// @DnDArgument : "type" "global.Particle3"
+/// @DnDArgument : "maxdir" "100"
+/// @DnDArgument : "incr" "100"
+part_type_direction(global.Particle3, 0, 100, 100, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 68D12CEE
+/// @DnDArgument : "type" "global.Particle3"
+/// @DnDArgument : "minspeed" "20"
+/// @DnDArgument : "maxspeed" "20"
+part_type_speed(global.Particle3, 20, 20, 0, 0);
