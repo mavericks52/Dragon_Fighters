@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2bd0f440-6de3-4ced-823a-929da4f62e99",
+            "Value": {
+                "id": "fd13bb1b-d12e-46b3-8057-07f3bcbb32f1",
+                "resourcePath": "sounds\\sod_jump\\sod_jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2c2d0bd6-7235-47f2-b503-cad87ed71c83",
             "Value": {
                 "id": "b6038f21-4f1f-4c79-a43a-afec5766d00b",
