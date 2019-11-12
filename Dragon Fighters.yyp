@@ -394,7 +394,7 @@
             "Key": "bad28cd5-99e0-4ed8-8691-b71a062e8c59",
             "Value": {
                 "id": "2713ee30-3dee-4b97-ab55-1efab98e3fcf",
-                "resourcePath": "objects\\obj_gravity_Controller\\obj_gravity_Controller.yy",
+                "resourcePath": "objects\\obj_powerup_controller\\obj_powerup_controller.yy",
                 "resourceType": "GMObject"
             }
         },
