@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0d3314f8-1356-40f1-af6c-87bc2b9956ed",
+            "Value": {
+                "id": "db191e97-cc8c-41d1-839b-1734f54a8ca4",
+                "resourcePath": "views\\0d3314f8-1356-40f1-af6c-87bc2b9956ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0dadca54-174a-4763-b9b4-aa9d007c2676",
             "Value": {
                 "id": "d229a6e7-f148-40b2-b548-9bb9fd1a6f15",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "7aa788c6-d37f-4942-8f82-8ebe8ad0a589",
+            "Value": {
+                "id": "16a6b6e4-b762-4a47-b045-1584924ffc62",
+                "resourcePath": "views\\7aa788c6-d37f-4942-8f82-8ebe8ad0a589.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7eef809c-7e07-4707-b939-e5e25b6aabcc",
             "Value": {
                 "id": "fb11eb6c-2459-47a2-9f2a-d170b93cfac3",
@@ -282,7 +298,7 @@
             "Key": "830f3bea-2590-4752-ab53-54a1dd769f3a",
             "Value": {
                 "id": "637cad2e-9847-4754-bb4c-2be5b9bcace5",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_graveyard_arena\\rm_graveyard_arena.yy",
                 "resourceType": "GMRoom"
             }
         },

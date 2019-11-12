@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2D87ECB4
-/// @DnDArgument : "code" "walkSpeed = 27;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)flash_hp = 60;$(13_10)flash_hp_max = 100;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4$(13_10)alarm[3]=-1;$(13_10)stop = 0;$(13_10)death_animation = 1;$(13_10)hspd_force = 0;$(13_10)vspd_force = 0;$(13_10)knockback_force_applied = 0;$(13_10)knockback_force_applied_x = 0;$(13_10)knockback_dir = 0;$(13_10)hspk=0;$(13_10)vspk=0;"
+/// @DnDArgument : "code" "walkSpeed = 27;$(13_10)jumpSpeed = 60;$(13_10)hsp = 0;$(13_10)vsp = 0;$(13_10)grav = 1.3;$(13_10)MAX_FALL_SPEED = 35;$(13_10)speedMultiplier = 1;$(13_10)spawnAlarm = 0;$(13_10)animation_string ="000111222333";$(13_10)animation_len = string_length(animation_string -1);$(13_10)animation_index= 1;$(13_10)animation_string_left ="444555666777";$(13_10)animation_len_left = string_length(animation_string_left -1);$(13_10)animation_index_left = 4;$(13_10)animation_string_1 = "55555555666666667777777788888888999999999";$(13_10)animation_len_1 = string_length(animation_string_1 -1);$(13_10)animation_index_1 = 1;$(13_10)flash_hp = 80;$(13_10)flash_hp_max = 80;$(13_10)jumps = 0;$(13_10)jumps_max = 2;$(13_10)fire_rate = 4$(13_10)alarm[3]=-1;$(13_10)stop = 0;$(13_10)death_animation = 1;$(13_10)hspd_force = 0;$(13_10)vspd_force = 0;$(13_10)knockback_force_applied = 0;$(13_10)knockback_force_applied_x = 0;$(13_10)knockback_dir = 0;$(13_10)hspk=0;$(13_10)vspk=0;"
 walkSpeed = 27;
 jumpSpeed = 60;
 hsp = 0;
@@ -19,8 +19,8 @@ animation_index_left = 4;
 animation_string_1 = "55555555666666667777777788888888999999999";
 animation_len_1 = string_length(animation_string_1 -1);
 animation_index_1 = 1;
-flash_hp = 60;
-flash_hp_max = 100;
+flash_hp = 80;
+flash_hp_max = 80;
 jumps = 0;
 jumps_max = 2;
 fire_rate = 4
