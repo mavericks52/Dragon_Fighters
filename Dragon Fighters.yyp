@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0c84f7e6-d8f4-4086-b0e3-c9f6b5cf4ddc",
+            "Value": {
+                "id": "eadafb91-abfe-4a1b-af56-cf692af6bee2",
+                "resourcePath": "sounds\\sod_throwing\\sod_throwing.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0d203805-ca58-4f84-ac46-73142c302940",
             "Value": {
                 "id": "bc8738f4-75d9-4693-a89d-06ab0009c694",
@@ -100,6 +108,14 @@
                 "id": "2c71725a-2c65-4dcc-92dc-9d77fa89705c",
                 "resourcePath": "sprites\\sprite16\\sprite16.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ba5775c-1576-41a7-b2aa-04ea7582d959",
+            "Value": {
+                "id": "14c745e4-3285-4f93-ba74-3037a3cf9db2",
+                "resourcePath": "objects\\obj_Victory_batman\\obj_Victory_batman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -180,6 +196,14 @@
                 "id": "fa3d5da9-f795-43b4-9feb-a1cbedbde611",
                 "resourcePath": "views\\4e267717-51a5-41a6-b231-c5ae24029826.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4fe7ae4f-9b94-469a-9bd6-f2e25ba4fd3b",
+            "Value": {
+                "id": "c57ea1ed-cb2b-4f02-b6e7-c885532ed976",
+                "resourcePath": "sprites\\spr_Victory_flash\\spr_Victory_flash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "cfb85a7b-f468-4599-b95a-ed568451f326",
+            "Value": {
+                "id": "6e1e5205-f80c-4b75-803e-f03a3ad5245c",
+                "resourcePath": "objects\\obj_Victory_flash\\obj_Victory_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d1a60cf3-913d-4f8c-b3de-1706bf68734e",
             "Value": {
                 "id": "ad8b7c5c-2118-4be3-aefb-ab12969196d1",
@@ -508,6 +540,14 @@
                 "id": "83bc6f3c-c662-4991-b75c-9b8ab779d986",
                 "resourcePath": "views\\e3bf6d56-f74b-4b5e-8ad9-52e6f827bd82.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e46e81be-1c3f-4c5d-b409-1d6704dc9120",
+            "Value": {
+                "id": "b127f8a6-f1d5-450e-9abd-ac0a47004889",
+                "resourcePath": "sprites\\spr_Victory_batman\\spr_Victory_batman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
