@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "08fb9636-d7c4-46cd-bdf0-747a7de46360",
+            "Value": {
+                "id": "68cb7f22-3f8e-41a4-a86f-36be2c91f855",
+                "resourcePath": "sprites\\spr_red_back\\spr_red_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a12bbe0-7296-4168-bae3-8213c3f7cde0",
+            "Value": {
+                "id": "06fe4f20-3f44-4875-ad50-4ee344902e69",
+                "resourcePath": "views\\830f3bea-2590-4752-ab53-54a1dd769f3a-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0bd64723-d357-4899-9516-598b636d0c83",
             "Value": {
                 "id": "2e435535-62f3-447e-bc62-44c4146eb784",
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "4fa0b100-976c-4baf-b39a-c441b819dfc8",
+            "Value": {
+                "id": "b321ef58-8640-4ed7-bfbb-4ef139603e56",
+                "resourcePath": "objects\\obj_play_desert_temple\\obj_play_desert_temple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4fe7ae4f-9b94-469a-9bd6-f2e25ba4fd3b",
             "Value": {
                 "id": "c57ea1ed-cb2b-4f02-b6e7-c885532ed976",
@@ -215,11 +239,27 @@
             }
         },
         {
+            "Key": "54a170c8-35e1-4725-8bdd-481c2331584f",
+            "Value": {
+                "id": "e00a7a43-3633-411f-a4fb-67f483c0851f",
+                "resourcePath": "sprites\\sprite24\\sprite24.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55e0070f-9114-4ba0-98da-98580ddf0bf1",
             "Value": {
                 "id": "c5cf9b27-49ff-4f17-a13b-cdce0890f789",
                 "resourcePath": "sprites\\spr_batarang\\spr_batarang.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56c40f95-83b9-4489-b920-b3d35b8f7d67",
+            "Value": {
+                "id": "957bd208-5d74-466b-9e75-7c55ba8835ed",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -287,6 +327,14 @@
             }
         },
         {
+            "Key": "71e7b1cb-574d-41b3-948a-47c1423b2455",
+            "Value": {
+                "id": "03a5c390-31c3-42d1-9fca-eef632f7550c",
+                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "735d1d23-5ff8-4eb6-83ad-ad53f472b60c",
             "Value": {
                 "id": "40f82af5-29f4-4418-a9a5-c87ebd44a2fd",
@@ -316,6 +364,14 @@
                 "id": "fb11eb6c-2459-47a2-9f2a-d170b93cfac3",
                 "resourcePath": "views\\7eef809c-7e07-4707-b939-e5e25b6aabcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7f2bcf8c-805b-4453-ade8-3ea188ea8470",
+            "Value": {
+                "id": "f566232b-23a5-43ed-992c-cf8ee18794c0",
+                "resourcePath": "rooms\\rm_desert_temple\\rm_desert_temple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -359,6 +415,14 @@
             }
         },
         {
+            "Key": "a59263eb-1e12-4a7a-a88c-d6b6813eec14",
+            "Value": {
+                "id": "025ca2bd-b649-448b-a88a-ed781caa6c4c",
+                "resourcePath": "sprites\\spr_desert_background\\spr_desert_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6638d94-6de2-465e-8de2-fda1fb574373",
             "Value": {
                 "id": "c5b9ccd2-e30f-4802-845e-c7828ee86ff2",
@@ -380,6 +444,14 @@
                 "id": "f452f3c3-f7d6-4f81-b96d-91541cd84ab8",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a935914c-6f9b-4cbe-a163-eb691195baa2",
+            "Value": {
+                "id": "ce0e5974-6fd4-474b-b688-b6af542b4ba9",
+                "resourcePath": "objects\\obj_room_mech_desert\\obj_room_mech_desert.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -511,6 +583,14 @@
             }
         },
         {
+            "Key": "d72b59c4-07d2-4a41-81ee-983e77d17089",
+            "Value": {
+                "id": "d3d18fea-7015-492d-996c-6cd85c34aaff",
+                "resourcePath": "sprites\\spr_desert_tiles\\spr_desert_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d91e8f57-db93-48a9-a0e9-8eaef0b73fd2",
             "Value": {
                 "id": "1f29f772-0c27-4037-82d0-982db0b5ed25",
@@ -580,6 +660,14 @@
                 "id": "31d27c0c-a4e9-4132-a015-0b7a19dbadab",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7db2c7c-c5e3-4119-963d-15936545d87a",
+            "Value": {
+                "id": "1d8f769a-5434-4b51-9870-d07860de4d7e",
+                "resourcePath": "rooms\\rm_instructions_level_selection\\rm_instructions_level_selection.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
