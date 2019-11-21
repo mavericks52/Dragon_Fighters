@@ -1,28 +1,28 @@
 {
-    "id": "4fa0b100-976c-4baf-b39a-c441b819dfc8",
+    "id": "e0a974b8-f89c-4b87-8a72-bb0020d36f62",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_play_desert_temple",
+    "name": "obj_play_graveyard",
     "eventList": [
         {
-            "id": "80c1e66e-c191-41b2-9fb4-bea9d7f14cb1",
+            "id": "a281d5c5-9a86-4a8b-bd91-1886a4899178",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 6,
-            "m_owner": "4fa0b100-976c-4baf-b39a-c441b819dfc8"
+            "m_owner": "e0a974b8-f89c-4b87-8a72-bb0020d36f62"
         },
         {
-            "id": "318ab353-40ba-45f9-901c-a7d3fcdca27a",
+            "id": "8d857efa-e3cd-4c99-9580-70198c756708",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4fa0b100-976c-4baf-b39a-c441b819dfc8"
+            "m_owner": "e0a974b8-f89c-4b87-8a72-bb0020d36f62"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a59263eb-1e12-4a7a-a88c-d6b6813eec14",
+    "spriteId": "ae00e851-3662-49f1-8809-76f2b29b8a8e",
     "visible": true
 }
